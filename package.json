@@ -1,0 +1,32 @@
+{
+  "name": "mtc-supertest",
+  "version": "1.0.0",
+  "description": "Teste de API omdb - MTC 2017",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha -R spec test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fredmoreira/mtc-supertest.git"
+  },
+  "keywords": [
+    "Api",
+    "Test",
+    "Mocha",
+    "SuperTest",
+    "Chai",
+    "mtc"
+  ],
+  "author": "Frederico Moreira (fredmacc@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fredmoreira/mtc-supertest/issues"
+  },
+  "homepage": "https://github.com/fredmoreira/mtc-supertest",
+  "dependencies": {
+    "chai": "4.1.1",
+    "mocha": "3.5.0",
+    "supertest": "3.0.0"
+  }
+}
