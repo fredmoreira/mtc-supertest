@@ -22,13 +22,13 @@ describe('Tests API OMDB MTC - GET', function() {
         assert.equal(result.Plot, 'The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker.', 'Conferindo o Plot!');
         assert.equal(result.Language, 'English, French', 'Conferindo o Language!');
         assert.equal(result.Country, 'USA, UK', 'Conferindo o Country!');
-        assert.equal(result.Awards, 'Won 1 Oscar. Another 9 wins & 23 nominations.', 'Conferindo o Awards!');
+        assert.equal(result.Awards, 'Won 1 Oscar. Another 9 wins & 26 nominations.', 'Conferindo o Awards!');
         assert.equal(result.Director, 'Tim Burton', 'Conferindo o Director!');
         assert.equal(result.Type, 'movie', 'Conferindo o Type!');
         assert.equal(result.DVD, '25 Mar 1997', 'Conferindo o DVD!');
         assert.equal(result.Metascore, '69', 'Conferindo o Metascore!');
         assert.equal(result.imdbRating, '7.6', 'Conferindo o imdbRating!');
-        assert.equal(result.imdbVotes, '285,262', 'Conferindo o imdbVotes!');
+        assert.equal(result.imdbVotes, '287,055', 'Conferindo o imdbVotes!');
         done();
       });
   });
